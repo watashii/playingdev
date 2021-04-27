@@ -1,0 +1,8 @@
+The HTML basic commands
+
+<p></p> add block to the inner contents "jumping lines"
+<b></b> highligh inner texts
+<br> break line, is a stand alone command, doesn't needs close brackets
+<ol></ol> order lists 1. 2. 3. and so on...
+<ul></ul> unorder lists . .
+<li></li> make lits inside <ol> or <ul>
