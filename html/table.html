@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Tables</title>
+	</head>
+	<body>
+		<h1>Tables</h1>
+		<!-- Table 5 rows 3 collunms-->
+			<table>
+				<caption>Basic Table</caption>
+					<thead>
+						<th scope="col">Name</th>
+						<th scope="col">Age</th>
+						<th scope="col">Year</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Ann</td>
+							<td>36</td>
+							<td>2078</td>
+						</tr>
+						<tr>
+							<td>luc</td>
+							<td>25</td>
+							<td>2078</td>
+						</tr>
+						<tr>
+							<td>Ann</td>
+							<td>48</td>
+							<td>4132</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<td><b>Name</b></td>
+						<td><b>Age</b></td>
+						<td><b>Year</b></td>
+					</tfoot>
+			</table>
+		<!-- Nested Tables-->	
+			<table>
+				<caption>Nested Tables</caption>
+					<thead>
+						<th scope="col" rowspan="2">Weather</th>
+						<th scope="col" colspan="2">Temp</th>
+						<th scope="col" rowspan="2">Month</th>
+						<tr>
+						<th scope="col">F</th>
+						<th scope="col">C</th>
+						</tr>
+					</thead>
+					<tbody>
+						<td>Rainy</td>
+						<td>67</td>
+						<td>19</td>
+						<td>April</td>
+					</body>	
+					<tfoot>	
+						<td>Sunny</td>
+						<td>70</td>
+						<td>21</td>
+						<td>May</td>
+					</tfoot>
+			</table>
+	</body>
+</html>
