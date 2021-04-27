@@ -9,18 +9,22 @@
 	<body>
 		<h1>Forms and Inputs</h1>
 		<!-- Text and Password-->
-		<form action="">
-			<p>
 			<form actio="">
 				<label for="user">Username:</label>
-				<input type="text" placeholder="Type Here" id="user" name="username">
+				<input type="text" placeholder="type here" id="user" name="username" required>
+				<p>
+				<label for="email">Email:</label>
+				<input type="email" placeholder="type here" id="email" name="email">
 				</p>
 				<p>
 				<label for="pwd">Password:</label>
-				<input type="password" placeholder="Type Here" id="pwd" name="pwd">
+				<input type="password" placeholder="type here" id="pwd" name="pwd" required>
+				</p>
+				<p>
+				<label for="agree">Terms and Services</label>
+				<input type="checkbox" id="agree" name="agreements" value="agree">
 				</p>
 				<button>Log in</button>
 			</form>
-		</form>
 	</body>
 </html>
