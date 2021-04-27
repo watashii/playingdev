@@ -7,6 +7,11 @@ The HTML basic commands
 <ul></ul> unorder lists . .
 <li></li> make lits inside <ol> or <ul>
 
+<br> break lines e.g.: <p> hello <br> there </p>
+<hr> horizontal rule e.g.: -------------------
+<sup></sup> little up the character
+<sub></sub> little down the character
+
 Images and links
 <a href=""></a> anchor tag make links to another pages and sites
 <img src="" alt=""> src, source, display a local image or site images, the alt helps when src is out, off, proving a text also helps sreenheaders and seo.
