@@ -26,3 +26,16 @@ Tables
 <tfoot></tfoot> organize footer with result contents
 rowspan and colspan e.g.: <th rowspan="2"></th> <th colspan="3"></th>
 scope="col" or scope="row" defines the cells that the headers th related to
+
+Forms v1
+<form action=""></form> creates a container grouping inputs together to sends data to somewhere
+action="" specify where
+<input type=""> It can creates lots of different inputs, like texts, email, password, checkbox
+for instance:
+<input type="text"> creates a box for type something like, username, email
+<input type="password"> creates a box for passwords, the text is not visible, ***
+<input type="radio"> creates lettle balls for select something
+attributes inside input, placeholder, name, value, id, class, required...
+<button></button> creates a click button
+<label for=""></label> creates labels to indentify inputs
+for="" connect labels to inputs
